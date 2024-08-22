@@ -1,0 +1,235 @@
+<!-- Declaración que especifica la versión de HTML que se está utilizando. En este caso HTML5 -->
+<!DOCTYPE html>
+
+<!-- La etiqueta <html>  -->
+<html lang="es">
+
+<!-- La etoqueta <head> contiene todos los metadatos del documento que no se ven directamente en la página. -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> - Mi primer HTML - </title> <!-- Nombre de la pestaña en el navegador. -->
+    <style>
+        table {
+            width: 40%;
+            border-color: black;
+            border-collapse: collapse;
+            th, td {
+                border: 1px solid black;
+                padding: 8px;
+                text-align: center;
+            }
+        }
+
+    </style>
+</head>
+
+<!-- La etiqueta <body> contiene todas las etiquetas que dan estructura a nuestra página. -->
+<body>
+
+    <header>
+        <h1>Trabajo Práctico: Front End - HTML</h1>
+    </header>
+
+    <main>
+        
+        <h3 style="text-decoration: underline; font-style: italic;"> Navegador: </h3>
+
+        <nav>
+            <ul>
+                <li><a href="#seccion4.1"> Ir a Sección 4.1: Estructura Básica del Documento HTML </a></li>
+                <li><a href="#seccion4.2"> Ir a Sección 4.2: Encabezados y Propiedades del Texto </a></li>
+                <li><a href="#seccion4.3"> Ir a Sección 4.3: Divisiones y Agrupación de Contenido </a></li>
+                <li><a href="#seccion4.4"> Ir a Sección 4.4: Enlaces y Listas </a></li>
+                <li><a href="#seccion4.5"> Ir a Sección 4.5: Elementos Multimedia </a></li>
+                <li><a href="#seccion4.6"> Ir a Sección 4.6: Tablas </a></li>
+                <li><a href="#seccion4.7"> Ir a Sección 4.7: Formularios </a></li>
+            </ul>
+        </nav>
+
+        <!-- Sección 4.1 -->
+        <section id="seccion4.1">
+        <div>
+            <h1 style="text-decoration: underline; font-style: italic;">
+                 1. Estructura Básica del Documento HTML 
+            </h1>
+            <p> Este documento HTML tiene una estructura básica que incluye
+             la declaración de DOCTYPE, etiquetas de metadatos y un título.
+            </p>
+        </div>
+        </section>
+    
+        <!-- Sección 4.2 -->
+        <section id="seccion4.2">
+        <div>
+            <h1 style="text-decoration: underline; font-style: italic;"> 
+                2. Encabezados y Propiedades del Texto 
+            </h1>
+            <h1 style="font-weight: bold;"> Este es un texto en negrita utilizando la etiqueta &lt;h1&gt; </h1>
+            <h2 style="font-weight: bold;"> Este es un texto en negrita utilizando la etiqueta &lt;h2&gt;</h2>
+            <h3 style="font-style: italic;"> Este es un texto en cursiva utilizando la etiqueta &lt;h3&gt;</h3>
+            <h4 style="font-style: italic;"> Este es un texto en cursiva utilizando la etiqueta &lt;h4&gt;</h4>
+            <h5 style="text-decoration: underline;"> Este es un texto subrayado utilizando la etiqueta &lt;h5&gt;</h5>
+            <h6 style="text-decoration: underline;"> Este es un texto subrayado utilizando la etiqueta &lt;h6&gt;</h6>
+        </div>
+        </section>
+    
+        <!-- Sección 4.3 -->
+        <section id="seccion4.3">
+        <div>
+            <h1 style="text-decoration: underline; font-style: italic;"> 
+                3. Divisiones y Agrupaciones de Contenido
+            </h1>
+            <h3> Sección 1 </h3>
+            <p> Contenido de la primera sección agrupada en un div.</p>
+            <h3> Sección 2 </h3>
+            <p> Contenido de la segunda sección agrupada en un div.</p>
+        </div>
+        </section>
+    
+         <!-- Sección 4.4 -->
+         <section id="seccion4.4">
+         <div>
+            <h1 style="text-decoration: underline; font-style: italic;"> 
+                4. Enlaces y Listas
+            </h1> 
+            <p> Visite nuestro <a href="https://www4.frm.utn.edu.ar" target="_blank"> sitio web</a> para más información.</p>
+    
+            <h3> Enlaces internos: </h3>
+                <!-- Menú de navegación COMPLETAR MENÚ-->
+                <nav>
+                    <ul>
+                        <li><a href="#seccion4.1"> Ir a Sección 4.1: Estructura Básica del Documento HTML </a></li>
+                        <li><a href="#seccion4.2"> Ir a Sección 4.2: Encabezados y Propiedades del Texto </a></li>
+                        <li><a href="#seccion4.3"> Ir a Sección 4.3: Divisiones y Agrupación de Contenido </a></li>
+                        <li><a href="#seccion4.4"> Ir a Sección 4.4: Enlaces y Listas </a></li>
+                        <li><a href="#seccion4.5"> Ir a Sección 4.5: Elementos Multimedia </a></li>
+                        <li><a href="#seccion4.6"> Ir a Sección 4.6: Tablas </a></li>
+                        <li><a href="#seccion4.7"> Ir a Sección 4.7: Formularios </a></li>
+                    </ul>
+                </nav>
+            
+            <h3> Lista desordenada: </h3>
+            <ul>
+                <li> Primer ítem de una lista desordenada</li>
+                <li> Segundo ítem de una lista desordenada</li>
+                <li> Tercer ítem de una lista desordenada</li>
+            </ul>
+    
+            <h3> Lista ordenada: </h3>
+            <ol>
+                <li> Primer ítem de una lista ordenada</li>
+                <li> Segundo ítem de una lista ordenada</li>
+                <li> Tercer ítem de una lista ordenada</li>
+            </ol>
+    
+        </div>
+        </section>  
+    
+         <!-- Sección 4.5 -->
+        <section id="seccion4.5">
+        <div>
+                <h1 style="text-decoration: underline; font-style: italic;"> 
+                    5. Elementos Multimedia
+                </h1>
+    
+                <div>
+                    <h3> Imágen: </h3>
+                    <img src="https://www4.frm.utn.edu.ar/wp-content/uploads/2021/05/logo-1.png" 
+                    alt="Este es el logo de la Universidad Tecnológica Nacional - Facultad Regional Mendoza" >
+                </div>
+    
+                <div>
+                    <h3> Video: </h3>
+                    <video src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4" 
+                    controls width="200px" height="200px">
+                </div>
+    
+               <div>
+                    <h3> Audio: </h3>
+                    <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg"
+                    controls >
+               </div>
+    
+        </div>
+        </section>
+    
+         <!-- Sección 4.6 -->
+        <section id="seccion4.6">
+        <div>
+                    <h1 style="text-decoration: underline; font-style: italic;"> 
+                        6. Tablas
+                    </h1>
+                    
+                    <table>
+    
+                        <thead>
+                            <tr>
+                                <th> Columna 1 </th>
+                                <th> Columna 2 </th>
+                                <th> Columna 3 </th>
+                            </tr>
+                        </thead>
+    
+                        <tbody>
+                            <tr>
+                                <td>Dato 1 </td>
+                                <td>Dato 2 </td>
+                                <td>Dato 3 </td>
+                            </tr>
+                            <tr>
+                                <td>Dato 4 </td>
+                                <td>Dato 5 </td>
+                                <td>Dato 6 </td>
+                            </tr>
+                            <tr>
+                                <td>Dato 7 </td>
+                                <td>Dato 8 </td>
+                                <td>Dato 9 </td>
+                            </tr>
+                        </tbody>
+    
+                    </table>
+                    
+        </div>
+        </section>
+        
+        <!-- Sección 4.7 -->
+        <section id="seccion4.7">
+        <div>
+            <h1 style="text-decoration: underline; font-style: italic;">
+                 7. Formularios 
+            </h1>
+    
+            <form>
+                <div>
+                    <label> Apellido y Nombre: </label>
+                    <input type="text" placeholder="Ingrese su apellido y nombre">
+                </div>
+    
+                <div>
+                    <label> Email: </label>
+                    <input type="email" placeholder="ejemploprueba@gmail.com">
+                </div>
+    
+                <div>
+                    <label> Mensaje: </label>
+                    <textarea placeholder="Información adicional"></textarea>
+                </div>
+    
+                <button type="submit">Enviar</button>
+            </form>
+            
+        </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p><i>Desarrollo de Software 2024 - Trabajo Práctico de HTML - CABAÑEZ, Jorge Nicolás - Comisión: 3K9 </i></p>
+
+    </footer>
+
+</body>
+
+</html>
